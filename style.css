@@ -10,7 +10,7 @@ font-family:Arial, sans-serif;
 }
 
 body{
-background:#050505;
+background:var(--black);
 color:white;
 }
 
@@ -19,7 +19,7 @@ header{
 padding:20px 8%;
 position:fixed;
 width:100%;
-background:#050505dd;
+background:var(--black);
 z-index:10;
 }
 
