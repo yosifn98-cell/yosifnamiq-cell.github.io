@@ -288,4 +288,12 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
     }
 
 }
+.menu-toggle{
+    display:none;
+}
+
+@media (max-width:768px){
+    .menu-toggle{
+        display:block;
+    }
 }
