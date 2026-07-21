@@ -263,29 +263,24 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
 
 @media (max-width:768px){
 
-.nav-links.active{
-    display:flex !important;
-    position:fixed;
-    top:0;
-    right:0;
-    width:50vw;
-    height:100vh;
-    background:#111;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:35px;
-    z-index:1000;
-}
-
-}
-
     .nav-links.active{
-        display:flex;
+        display:flex !important;
+        position:fixed;
+        top:0;
+        right:0;
+        width:50vw;
+        height:100vh;
+        background:#111;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:35px;
+        z-index:1000;
     }
 
     .menu-toggle{
         display:block;
         z-index:1100;
     }
+
 }
