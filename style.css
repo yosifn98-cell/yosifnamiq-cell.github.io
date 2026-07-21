@@ -263,6 +263,10 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
 
 @media (max-width:768px){
 
+    .nav-links{
+        display:none;
+    }
+
     .nav-links.active{
         display:flex !important;
         position:fixed;
@@ -283,4 +287,5 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
         z-index:1100;
     }
 
+}
 }
