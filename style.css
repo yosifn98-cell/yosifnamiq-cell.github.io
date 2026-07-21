@@ -109,6 +109,13 @@ border:1px solid #d4af37;
 padding:30px;
 margin:20px;
 border-radius:15px;
+transition:0.4s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(212,175,55,0.4);
 }
 
 
