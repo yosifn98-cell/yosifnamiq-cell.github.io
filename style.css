@@ -256,20 +256,19 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
 @media (max-width:768px){
 
     .nav-links{
-    display:none;
-    flex-direction:column;
-    position:fixed;
-    top:0;
-    right:0;
-    width:50%;
-    height:100vh;
-    background:#111;
-    padding-top:100px;
-    align-items:center;
-    gap:30px;
-    z-index:1000;
-    box-shadow:-5px 0 25px rgba(0,0,0,.5);
-}
+        display:none;
+        flex-direction:column;
+        position:fixed;
+        top:0;
+        right:0;
+        width:50%;
+        height:100vh;
+        background:#111;
+        padding-top:100px;
+        align-items:center;
+        gap:30px;
+        z-index:1000;
+    }
 
     .nav-links.active{
         display:flex;
@@ -277,5 +276,6 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
 
     .menu-toggle{
         display:block;
+        z-index:1100;
     }
 }
