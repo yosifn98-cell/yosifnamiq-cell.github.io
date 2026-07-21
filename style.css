@@ -57,6 +57,7 @@ justify-content:center;
 text-align:center;
 position:relative;
 overflow:hidden;    
+animation: heroZoom 12s ease-in-out infinite;    
 }
 
 
