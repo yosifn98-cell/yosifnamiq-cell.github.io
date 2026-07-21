@@ -164,6 +164,9 @@ display:none;
 
 .hero-text{
     animation: fadeIn 2s ease-in-out;
+    position:relative;
+z-index:2;
+text-shadow:0 0 20px rgba(0,0,0,.8);
 }
 
 @keyframes fadeIn{
