@@ -250,3 +250,32 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
     z-index:2;
 }
 
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    cursor:pointer;
+    color:white;
+}
+
+@media (max-width:768px){
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:70px;
+        right:20px;
+        background:#111;
+        padding:20px;
+        border-radius:12px;
+        width:180px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+}
