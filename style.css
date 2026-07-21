@@ -162,10 +162,6 @@ background:#111;
 font-size:45px;
 }
 
-nav ul{
-display:none;
-}
-
 }
 
 .hero-text{
@@ -269,6 +265,8 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
         padding:20px;
         border-radius:12px;
         width:180px;
+        z-index:1000;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
     }
 
     .nav-links.active{
