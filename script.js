@@ -1,3 +1,3 @@
-window.addEventListener("scroll",()=>{
-document.querySelector("header").style.background="#050505";
+window.addEventListener("scroll", () => {
+    document.querySelector(".navbar").style.background = "#050505";
 });
