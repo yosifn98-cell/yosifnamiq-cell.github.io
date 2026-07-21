@@ -297,3 +297,12 @@ text-shadow:0 0 20px rgba(0,0,0,.8);
         display:block;
     }
 }
+
+section{
+    text-align:center;
+}
+
+section h2,
+section p{
+    text-align:center;
+}
